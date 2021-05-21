@@ -1,7 +1,7 @@
 import React from "react"
 import { Container } from "./layout/Container"
 import { Content } from "./layout/Content";
-import { Feedlist } from "./layout/Feedlist"
+import { Widgets } from "./layout/Widgets"
 import { Sidebar } from "./layout/Sidebar"
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Container >
         <Sidebar />
         <Content />
-        <Feedlist />
+        <Widgets />
       </Container>
     </div>
   );

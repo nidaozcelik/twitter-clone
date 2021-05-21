@@ -11,6 +11,7 @@ import {
     ProfileIcon,
     MoreIcon
 } from "../icons/Icon";
+import { UserBox } from '../components/UserBox';
 
 const sideLinks = [
     {
@@ -52,7 +53,7 @@ export const Sidebar = () => {
         setActive(name)
     }
     return (
-        <div className="flex flex-col justify-between bg-white w-80 px-2">
+        <div className="flex flex-col justify-between bg-white w-3/12 px-2">
             <div>
                 <div className="mt-1 mb-4 ml-1 flex items-center justify-center w-12 h-12 rounded-full hover:bg-gray-lightest">
                     <a href="Home">
@@ -73,7 +74,7 @@ export const Sidebar = () => {
                 </nav>
                 <button className="bg-primary-base hover:bg-primary-dark text-white rounded-full py-3 px-8 w-11/12 shadow-lg transform transition-colors duration-200">Tweet</button>
             </div>
-            <div>Alt taraf</div>
+            <div><UserBox /></div>
         </div>
     )
 }
