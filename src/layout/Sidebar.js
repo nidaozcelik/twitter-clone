@@ -53,7 +53,7 @@ export const Sidebar = () => {
         setActive(name)
     }
     return (
-        <div className="flex flex-col justify-between bg-white w-3/12 px-2">
+        <div className="flex flex-col h-screen sticky top-0 justify-between bg-white w-3/12 px-6">
             <div>
                 <div className="mt-1 mb-4 ml-1 flex items-center justify-center w-12 h-12 rounded-full hover:bg-gray-lightest">
                     <a href="Home">
