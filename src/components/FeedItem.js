@@ -29,13 +29,13 @@ export const FeedItem = ({ avatar, username, displayName, content, timestamp }) 
             </div>
             <div className="flex px-20 w-full mt-4 mb-4 space-x-28 text-gray-dark">
                 <div className="hover:bg-gray-extraLight rounded-full w-9 h-9 items-center flex justify-center hover:text-primary-base">
-                    <ReplyIcon />
+                    <ReplyIcon /> 7
                 </div>
                 <div className="hover:bg-green-100 rounded-full w-9 h-9 items-center flex justify-center hover:text-green-400">
-                    <RetweetIcon />
+                    <RetweetIcon /> 7
                 </div>
                 <div className="hover:bg-red-50 rounded-full w-9 h-9 items-center flex justify-center hover:text-red-500">
-                    <LikeIcon />
+                    <LikeIcon />7
                 </div>
                 <div className="hover:bg-gray-extraLight rounded-full w-9 h-9 items-center flex justify-center hover:text-primary-base">
                     <ShareIcon />
